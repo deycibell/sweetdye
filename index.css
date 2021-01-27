@@ -1,0 +1,153 @@
+/*#BFB999 verde
+#F2B885 mostaza
+#F29F80 melon
+#F2C6C2 rosa claro
+#F2A0A0 rosa
+#FFFFFF blanco
+Subtitulos:, sans-serif;
+titulo: font-family: 'Dancing Script', cursive;
+texto: font-family: 'Lobster', cursive;
+elemento {
+  background-color: var(--main-bg-color);
+}*/
+
+body{
+    background-color: #f2c6c2; 
+}
+.imagenbanner{
+    height: 45%;
+    width: 35%;
+    display: inline-block;
+    padding: 0px;
+}
+
+.cabecera{
+    text-align: center;
+    width: 1500px;
+}
+.banner{
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+}
+
+.navegador {
+    height: 64px;
+    background-color:#F2A0A0;
+    text-decoration: none;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 700;
+    padding: 0px;
+    text-align: center;
+}
+.navegador li {
+    display: inline-block;
+    background-color:#F2A0A0;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 64px;
+    width: 15em;
+    font-family: 'ABeeZee', sans-serif;
+}
+.navegador li a {
+    color:white;
+    text-decoration:none;
+}
+
+.navegador li:hover {
+    background-color:#F2A0A0;
+    box-shadow: 0px 8px 10px 4px rgb(197, 159, 159);
+    position: relative;
+}
+
+.navegador .subnav ul {
+    display: none;
+    position: absolute;
+    max-width: 200px;
+    padding: 0px;
+    margin-left: 0px;
+    box-shadow: 0px 8px 10px 4px rgb(197, 159, 159);
+}
+
+.navegador .subnav ul li {
+    min-width: 100%;
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.navegador .subnav:hover ul {
+    display: block;
+}
+.navegador .subnav li:hover {
+    background-color:#F29F80 ;
+    box-shadow: none;
+}
+.central{
+    margin-top: 15px;
+    text-align: center;
+}
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 200px;
+    color:#fd9438;
+}
+
+section{
+    text-align: center;
+    color:rgb(248, 142, 142);
+    font-family: 'Lobster', cursive;
+    width: 45%;
+    margin-top: 15px;
+    margin-left: 450px
+}
+.imagen{
+    display: inline-block;
+}
+
+article{
+    padding: 15px;
+    text-align: justify;
+    color:#7ba35b;
+    background-color: #f7b2ab ;
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+    margin: 20px;
+}
+.articulo1{
+    display: inline-block;
+    float: left;
+    width: 45%;
+}
+.imagen1{
+    width: 420px;
+    height: 520px;
+    display: inline-block;
+    margin-left: 35px;
+    padding-top: 34px;
+}
+.imagen2 {
+    width: 420px;
+    height: 520px;
+    display: inline-block;
+    margin: 0px;
+}
+.articulo2{
+    display: inline-block;
+    width: 45%;
+}
+a{
+    text-decoration: none;
+    color: #fd9438;
+}
+footer{
+    color:#fd9438;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    height: 50px;
+    background-color: rgb(250, 211, 211);
+    text-align: center;
+    padding-top: 10px;
+
+}
